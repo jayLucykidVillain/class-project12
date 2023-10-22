@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="quizStyles.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://www.reshot.com/preview-assets/icons/EA2ZDBUJ7T/guitar-EA2ZDBUJ7T.svg"
+    />
+    <title>Hey! This is About Me!| Jaime Luis Cueto</title>
+    <meta
+      name="description"
+      content="This is my personal website homepage - it shows the menu and connects to other pages"
+    />
+  </head>
+
+  <body class="body_styles">
+    <div class="nav-menu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about-me.html">About Me</a></li>
+        <li><a href="past-projects.html">Past Projects</a></li>
+        <li><a href="contact-me.html">Contact Me</a></li>
+        <li><a class="active" href="quiztime.html">Music Quiz</a></li>
+      </ul>
+    </div>
+
+    <div class="body_wrapper">
+      <div class="body_container">
+        <header class="grid-item header">
+          <h1>Jaime Luis Cueto</h1>
+          <h4>
+            Web Developer (on the rise!) | Extreme Hobbyist | Traversing the
+            Dungeons of Rap
+          </h4>
+
+          <img
+            src="webLandPage.jpg"
+            alt="Work/Coding"
+            width="160"
+            height="160"
+          />
+          <h6>Work in progress personal portfolio site</h6>
+        </header>
+
+        <main class="grid item main">
+          <div class="triviaFrame">
+            <h1>Music Trivia !!</h1>
+            <h3>Music Question:</h3>
+            <h4 id="musicTriviaQuestion"></h4>
+            <button class="quizButtons" id="response01">Click 01</button>
+            <button class="quizButtons" id="response02">Click 02</button>
+            <button class="quizButtons" id="response03">Click 03</button>
+            <button class="quizButtons" id="response04">Click 04</button>
+
+            <div class="answerMessage"></div>
+          </div>
+        </main>
+
+        <!-- footer goes here -->
+
+        <footer class="grid-item footer">
+          <h3>Follow me on:</h3>
+          <a href="https://www.linkedin.com/in/jaime-l-cueto/" target="_blank"
+            ><img
+              width="64"
+              height="64"
+              src="https://img.icons8.com/nolan/64/linkedin.png"
+              alt="linkedin"
+          /></a>
+
+          <a href="https://icons8.com/icon/44019/linkedin" target="_blank"
+            >LinkedIn</a
+          >
+          icon by <a href="https://icons8.com" target="_blank">Icons8</a
+          ><!-- same spacing -->
+        </footer>
+      </div>
+    </div>
+
+    <script src="quizScript.js"></script>
+  </body>
+</html>
